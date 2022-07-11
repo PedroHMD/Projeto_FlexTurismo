@@ -1,0 +1,245 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+
+ul li{
+    text-decoration: none;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+.flex_cont{
+    display: flex;
+    margin: auto;
+    max-width: 992px;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(5, 44, 78);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+header .list_items{
+    display: flex;
+    width: 100%;
+    max-width:260px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_items li{
+    color: white;
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+.apresentacao{
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao .Text_apr{
+    min-height: 200px;
+
+}
+
+.Text_apr h1{
+    color: rgb(5, 44, 78);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.Text_apr a{
+    background-color: rgb(5, 44, 78);
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    display: block;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    line-height: 40px;
+    
+}
+
+#quem-somos h2{
+    font-size: 30px;
+    display: flex;
+}
+
+#quem-somos h2::before{
+    background-color: rgb(5, 44, 78);
+    height: 40px;
+    width: 5px;
+    content: "";
+    margin-right: 5px;
+    position: relative;
+}
+
+#quem-somos p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#quem-somos img{
+    min-width: 570px;
+}
+
+/* criando background na area de serviços*/
+.cont_serv{
+    background-color: rgb(5, 44, 78);
+    width: 100%;
+}
+
+/* alinhando e ajustando toda a area de serviços*/
+
+#serv{
+    display: flex;
+    justify-content: space-around; /* Deixa as imagens e os textos "justificados" */
+}
+
+#serv h2{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    
+}
+#serv h2::before{
+    content: "";
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 5px;
+    position: relative;
+    margin-top: -4px;
+    margin-right: 5px;
+
+}
+.item_serv{
+    padding: 40px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.item_serv p{
+    margin-top: 50px;
+}
+
+.item_serv a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    line-height: 40px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+/*------------------planos--------------------*/
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+    
+    
+}
+
+.list_planos{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.item_plano{
+    flex: 1;
+    border: 5px solid;
+    border-color: rgb(5, 44, 78);
+    border-radius: 20px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.item_plano h3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.item_plano h3::after{
+    content: "";
+    background-color: rgb(5, 44, 78);
+    height: 3px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.item_plano ul{
+    list-style:square;
+    
+}
+
+.item_plano ul li{
+    margin-bottom: 20px;
+    
+}
+.btn{
+    text-decoration: none;
+    background-color:rgb(5, 44, 78);
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    line-height: 40px;
+    border-radius: 30px;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    
+}
+
+.item_plano .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+#planos h2{
+    color: rgb(5, 44, 78);
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+}
+
+footer{
+    background-color: rgb(5, 44, 78);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: white;
+
+}
